@@ -47,6 +47,13 @@ data class PizzaUIState(
         R.drawable.basil_3,R.drawable.onion_3,
         R.drawable.broccoli_3,R.drawable.mushroom_3,
         R.drawable.sausage_3
+    ),
+    val imageIngredient: List<Int> = listOf(
+        R.drawable.basils,
+        R.drawable.broccoli,
+        R.drawable.onions,
+        R.drawable.sausage,
+        R.drawable.mushroom,
     )
 )
 
